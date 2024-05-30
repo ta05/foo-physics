@@ -10,7 +10,14 @@ $ pip install foo
 
 ## Usage
 
-- TODO
+`foo` can be used to calculate the volume of a sphere given its radius. Use as follows:
+
+```python
+from foo.foo import volume
+
+radius = input("Enter sphere radius: ")
+vol = volume(radius)
+```
 
 ## Contributing
 
