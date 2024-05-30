@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "foo"
+version = "0.1.0"
+description = "A package which calculates the volume of a sphere given the radius"
+authors = ["Tolu Alimi"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
